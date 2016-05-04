@@ -1,0 +1,92 @@
+open source     > 1 > 1 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv
+
+ConTeXt  ver: 2016.05.01 09:52 MKIV beta  fmt: 2016.5.4  int: english/english
+
+system          > 'cont-new.mkiv' loaded
+open source     > 2 > 2 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv
+close source    > 2 > 2 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv
+system          > files > jobname 'resume', input './resume', result 'resume'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > 2 > 3 > /home/gvaumour/Dropbox/Thèse/Candidature/CV/resume/resume.tex
+colors          > defining > unknown library 'hex'
+open source     > 3 > 4 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv
+close source    > 3 > 4 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv
+structure       > sectioning > section @ level 3 : 0.0.1 -> Grégory Vaumourin
+structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
+structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Publications
+structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Other Experience
+backend         > xmp > using file '/home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1
+pages           > flushing realpage 2, userpage 2
+close source    > 2 > 4 > /home/gvaumour/Dropbox/Thèse/Candidature/CV/resume/resume.tex
+close source    > 1 > 4 > /home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv
+
+system          > structure > start used structure
+
+used structure  > text: resume
+
+system          > structure > stop used structure
+
+
+system          > files > start used files
+
+used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=scripts foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+used file       >    5: filename=/home/gvaumour/Dropbox/Thèse/Candidature/CV/resume/resume.tex foundname=/home/gvaumour/Dropbox/Thèse/Candidature/CV/resume/resume.tex usedmethod=direct
+used file       >    6: filename=type-imp-texgyre.mkiv filetype=tex foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+used file       >    7: filename=lm.lfg filetype=tex foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+used file       >    8: filename=texgyreheros-regular filetype=otf format=otf foundname=/home/gvaumour/apps/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf usedmethod=database
+used file       >    9: filename=latinmodern-math.otf filetype=opentypefonts foundname=/home/gvaumour/apps/context/tex/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf usedmethod=database
+used file       >   10: filename=texgyreheros-bold filetype=otf format=otf foundname=/home/gvaumour/apps/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf usedmethod=database
+used file       >   11: filename=texgyreheros-italic filetype=otf format=otf foundname=/home/gvaumour/apps/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf usedmethod=database
+used file       >   12: filename=texgyreheros-bolditalic filetype=otf format=otf foundname=/home/gvaumour/apps/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyreheros-bolditalic.otf usedmethod=database
+used file       >   13: filename=lpdf-pdx.xml filetype=tex foundname=/home/gvaumour/apps/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+
+system          > files > stop used files
+
+
+system          > options > start commandline options
+
+used option     > currentrun="3"
+used option     > fulljobname="./resume.tex"
+used option     > input="./resume.tex"
+used option     > kindofrun="2"
+used option     > maxnofruns="9"
+used option     > no-parse-first-line="true"
+
+system          > options > stop commandline options
+
+system          > options > start commandline files
+
+used file       >    1: ./resume.tex
+
+system          > options > stop commandline files
+
+
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /home/gvaumour/apps/context/tex/texmf-cache/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.008 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 13 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 386 modules (0.172 sec), 82 tables (0.012 sec), 468 chunks (0.184 sec)
+mkiv lua stats  > traced context: maxstack: 1172, freed: 0, unreachable: 1172
+mkiv lua stats  > cleaned up reserved nodes: 56 nodes, 9 lists of 444
+mkiv lua stats  > node memory usage: 15 glue, 2 penalty, 43 attribute, 38 glue_spec, 12 attribute_list, 2 temp
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 7 instances (re)created, 287 calls
+mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 645 direct, 726 indirect, 1371 total
+mkiv lua stats  > randomizer: resumed with value 0.41499405140755
+mkiv lua stats  > loaded patterns: en::2, load time: 0.000
+mkiv lua stats  > interactive elements: 12 references, 8 destinations
+mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
+mkiv lua stats  > font engine: otf 3.019, afm 1.501, tfm 1.000, 11 instances, 4 shared in backend, 0 common vectors, 4 common hashes, load time 0.169 seconds 
+mkiv lua stats  > pdf annotations: 12 links (12 unique), 0 special
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > luatex banner: this is luatex, version 0.95.0 (tex live 2016)
+mkiv lua stats  > control sequences: 44107 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 79 MB (ctx: 79 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.496 seconds, 2 processed pages, 2 shipped pages, 4.032 pages/second
+

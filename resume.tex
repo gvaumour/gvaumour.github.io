@@ -1,0 +1,195 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+%
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+%
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=15mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[grégory-vaumourin]{Grégory Vaumourin}
+
+\thinrule
+
+\startblockquote
+PhD Student on Computer Architecture, Compiler Python enthusiast and
+Free Software supporter
+\stopblockquote
+
+\thinrule
+
+\subsection[education]{Education}
+
+\startdescription{2013-Now}
+  {\bf PhD student} -- Commissariat à l'énergie atomique -- Saclay
+  (France) Title : \quotation{}
+\stopdescription
+
+\startdescription{2008-2013}
+  {\bf Computer engineering} -- Institut National des Sciences
+  Appliquées -- Rennes (France)
+
+  {\em Engineer's degree (master/bachelor equivalent)}
+\stopdescription
+
+\startdescription{2012-2013}
+  {\bf Computer Science} -- Luleå University of Technology -- Luleå
+  (Sweden)
+
+  {\em Exchange program during 2 quarters}
+\stopdescription
+
+\subsection[publications]{Publications}
+
+\startdescription{2014}
+  {\bf Software engineer at MAX-IV Synchrotron} -- Lund (Sweden)
+
+  \startitemize
+  \item
+    Control system software for particle accelerator:
+
+    \startitemize[packed]
+    \item
+      {\bf Python} libraries for many kinds of hardware
+    \item
+      Control system software, based on {\bf Python} and
+      \useURL[url1][http://www.tango-controls.org/][][{\bf Tango}]\from[url1]
+    \item
+      User interfaces ({\bf PyQt} and command line)
+    \stopitemize
+  \item
+    Software production methods:
+
+    \startitemize[packed]
+    \item
+      Iterative and incremental development: {\bf Agile/Scrum}
+    \item
+      Direct interaction with machine operators and scientists
+    \item
+      Unit testing ({\bf nose}, {\bf pytest}) and development of
+      \useURL[url2][https://github.com/vxgmichel/pytango-devicetest][][test
+      utilities]\from[url2]
+    \item
+      Automated packaging and deployment with {\bf Jenkins},
+      {\bf Docker} and {\bf Ansible}
+    \item
+      Focus on GNU/Linux based distributions: {\bf CentOS}, {\bf Debian}
+    \stopitemize
+  \item
+    Open-source
+    \useURL[url3][http://www.tango-controls.org/][][{\bf Tango}]\from[url3]
+    community:
+
+    \startitemize[packed]
+    \item
+      Bug reports and forum support for new comers
+    \item
+      Maintaining of the
+      \useURL[url4][https://github.com/tango-cs/PyTango][][{\bf PyTango}]\from[url4]
+      library (\lettertilde{} 3000 downloads/month)
+    \item
+      Publishing of
+      \useURL[url5][https://github.com/vxgmichel/tango-gateway][][generic
+      tools]\from[url5] for the community
+    \stopitemize
+  \stopitemize
+\stopdescription
+
+\subsection[other-experience]{Other Experience}
+
+{\bf Asynchronous programming and asyncio}
+
+\startitemize[packed]
+\item
+  \useURL[url6][https://github.com/python/asyncio/pull/273][][Pull
+  request]\from[url6] to add
+  \useURL[url7][https://docs.python.org/3/library/asyncio-task.html\#asyncio.run_coroutine_threadsafe][][{\em run_coroutine_threadsafe}]\from[url7],
+  merged in {\bf asyncio} and {\bf cpython}
+\item
+  Asyncio-based library for asynchronous console and interfaces:
+  \useURL[url8][https://github.com/vxgmichel/apython][][{\bf apython}]\from[url8]
+\stopitemize
+
+{\bf Competitive programming and mathematics}
+
+\startitemize[packed]
+\item
+  About 140 problems solved on
+  \useURL[url9][https://projecteuler.net][][{\bf ProjectEuler.net}]\from[url9]
+\item
+  Attended 2 {\bf Google Code Jams}
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url10][mailto:gregory.vaumourin@gmail.com][][\hyphenatedurl{gregory.vaumourin@gmail.com}]\from[url10]
+• French\crlf
+GitHub:
+\useURL[url11][https://github.com/vxgmichel/][][vxgmichel]\from[url11] •
+StackOverflow:
+\useURL[url12][http://stackoverflow.com/users/2846140/vincent][][Vincent]\from[url12]\crlf
++33 (0)7 50 20 32 74 •
+\stopblockquote
+
+\stoptext

@@ -3,8 +3,7 @@ Grégory Vaumourin
 
 ----
 
->  PhD Student on Computer Architecture, Compiler Python enthusiast and Free Software supporter
-
+>  PhD Student at CEA Saclay and INRIA Bordeaux 
 ----
 
 Education

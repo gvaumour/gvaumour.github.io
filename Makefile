@@ -14,6 +14,7 @@ resume.html: style_chmduquesne.css resume.md
         --from markdown --to html \
         -o resume.html resume.md
 	cp resume.html index.html
+	cp resume.md README.md
 
 docx: resume.docx
 resume.docx: resume.md

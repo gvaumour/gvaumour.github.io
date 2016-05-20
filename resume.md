@@ -35,6 +35,8 @@ Education
 
 Scientific Publication 
 ------------
+2016
+:   ** Research report**\ [[pdf][6]]
 
 2016
 :   **Specific Read-only Data Management for Memory System Optimization **\
@@ -62,4 +64,4 @@ Scientific Publication
 [3]: https://fr.linkedin.com/in/grégory-vaumourin-597a7397
 [4]: http://greco.irisa.fr/
 [5]: http://wsnet.gforge.inria.fr/
-
+[6]: https://github.com/gvaumour/gvaumour.github.io/blob/master/europar.pdf

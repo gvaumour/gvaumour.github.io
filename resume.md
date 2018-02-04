@@ -7,11 +7,11 @@ Grégory Vaumourin
 
 Bio: 
 
-I received my PhD in Electrical Engineering from the University of Bordeaux in 2016. I worked with Pr. [Denis Barthou[9]] in the [CEA LIST[13]] and in [INRIA Bordeaux[10]]. My PhD thesis was on heterogeneous memory management on embedded multi-core processors and has been defended the 4 October 2016 against the opponents: William Jalby, Albert Cohen, Olivier Sentieys and Alexandra Jimborean
+I received my PhD in Electrical Engineering from the University of Bordeaux in 2016. I worked with Pr. [Denis Barthou][9] in the [CEA LIST][13] and in [INRIA Bordeaux][10]. My PhD thesis was on heterogeneous memory management on embedded multi-core processors and has been defended the 4 October 2016 against the opponents: William Jalby, Albert Cohen, Olivier Sentieys and Alexandra Jimborean
 
-I now work a post-doc researcher in computer architecture in the Dept. of Information Technology at Uppsala University. I have been working with [David Black-Schaffer[11]] and [Alexandra Jimborean[12]] on studying the opportunity of the new non-volatile memories technologies (NVM) for cache-based memory systems both in hardware and software point of views.
+I now work a post-doc researcher in computer architecture in the Dept. of Information Technology at Uppsala University. I have been working with [David Black-Schaffer][11] and [Alexandra Jimborean][12] on studying the opportunity of the new non-volatile memories technologies (NVM) for cache-based memory systems both in hardware and software point of views.
 
-In addition to research, I have been involved in the organization of the [MCC workshop[8]] and the [ACM-W Uppsala Chapter[14]].
+In addition to research, I have been involved in the organization of the [MCC workshop][8] and the [ACM-W Uppsala Chapter][14].
 
 Topic of Research 
 -----------------
@@ -20,7 +20,7 @@ Topic of Research
 * Memory Systems : Cache Management Techniques for Energy Consumption Reduction and Cache Coherence Optimizations 
 * Compilation analysis and data locality optimization 
 * High Level Working Set Analysis
-* Simulations and energy consumption modeling in the [Gem5 simulator[15]]
+* Simulations and energy consumption modeling in the [Gem5 simulator][15]
 
 Education
 ---------
@@ -31,7 +31,7 @@ Education
 
 2013-2016
 :   **PhD student** at CEA, Architecture and IC Design, Embedded Software Department – Saclay (France) and INRIA Bordeaux (France)\
-    *Subject :* Hybrid Memory Hierarchy and dynamic data management for embedded multi-core architectures [Thesis in French[7]]
+    *Subject :* Hybrid Memory Hierarchy and dynamic data management for embedded multi-core architectures [Thesis in French[7]
 
 2013
 :    **Internship at CEA-LETI** : Participation in the national research project [GRECO][4] (GReen wireless Communicating Object) targetting low-power communicating networks.\
@@ -47,8 +47,6 @@ Education
 
 Scientific Publication 
 ------------
-2016
-:   ** Research report**\ [[pdf][6]]
 
 2016
 :   **Specific Read-only Data Management for Memory System Optimization **\

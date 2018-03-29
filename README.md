@@ -1,47 +1,58 @@
 Grégory Vaumourin
 =================
 
-----
-
->  PhD Student at CEA-LIST and INRIA Bordeaux (France)
+>  Associated Researcher in Computer Architecture at Uppsala University (Sweden)
 
 Topic of Research 
 -----------------
 
-* Memory Systems : Cache Managemement Techniques for Energy Consumption Reduction and Cache Coherence Optimizations 
-* Compilation analysis and data locality optimization in GCC 
-* Data locality metrics for working set analysis
-* Simulations and energy consumption modeling of the memory hierarchy in Gem5 
-* Emerging memory technologies 
+* Emerging non-volatile memory technologies
+* Memory systems optimizations including cache designs, data locality and coherence optimizations 
+* Compilation analysis and data locality optimization 
+* Computer-system architecture modeling and simulation 
+
 
 Education
 ---------
 
-2013-Now
-:   **PhD student** at CEA, Architecture and IC Design, Embedded Software Department – Saclay (France) and INRIA Bordeaux (France)\
-    *Subject :* Hybrid Memory Hierarchy and dynamic data management for embedded multi-core architectures
+2017-2019
+:   **Associated Researcher**  in the Uppsala Architecture Research Team ([UART][22]), Uppsala University (Sweden)\
+    __*Description:*__ Analyzing the opportunity of the new non-volatile memories technologies (NVM) for cache-based memory systems both in hardware and software point of views with Pr. Black-Schaffer and Pr. Jimborean.
+
+2013-2016
+:   **PhD Degree in Electrical Engineering** from the University of Bordeaux (France).\
+    __*Description:*__ Hardware/Software co-design for data locality and coherence optimization in memory system for energy efficiency\
+    Thesis done under the supervision Pr. [Denis Barthou][9] and Thomas Dombek at [CEA LIST][13] and [INRIA Bordeaux][10] and defended the 4th October 2016. Details avalaible [here][7]\
+   __*Tools:*__ [Gem5 simulator][15], [McPAT][16], [Pintools][20], [GCC][17]
 
 2013
-:    **Internship at CEA-LETI** : Participation in the national research project [GRECO][4] (GReen wireless Communicating Object) targetting low-power communicating networks.\
-     Developpement in the [WSNet simulator][5] for an industrial use-case simulation of an energy harvesting wireless sensor network (EH-WSN) 
-
-2012-2013
-:   **Computer Science** – Luleå University of Technology – Luleå (Sweden)\
-    Exchange program during 1 semester
+:    **6 months Internship** at CEA-LETI Grenoble (France)\
+     __*Description:*__ Participation in the national research project [GRECO][4] (GReen wireless Communicating Object) targetting low-power communicating networks. Developpement in the [WSNet simulator][5] for an industrial use-case simulation of an energy harvesting wireless sensor network (EH-WSN) 
 
 2008-2013
-:   **Computer engineering** at National Institute of Applied Science (INSA) – Rennes (France)
-    Engineer's degree (master/bachelor equivalent) in Electronic and Computer Science
+:   **Master degree** in Computer Engineering at National Institute of Applied Science (INSA) – Rennes (France)
 
-Scientific Publication 
+
+Scientific Publications
 ------------
+
+2018
+:   **DB-AMB: Dataset-Based Allocation, Migration, and Bypassing in hybrid** \
+    **non-volatile/SRAM caches** \
+    Vaumourin G., Jimborean A. and Black-Schaffer D.\
+    *Under Review at IEEE Transaction on Computers* [pre-print][21] 
+
+2017
+:   **Dedicated read-only/read-write cache design for data locality and coherence optimization**\
+    Vaumourin G., Dombek T., Guerre A., Barthou D.\
+    *Technical Report* [print][6] 
 
 2016
 :   **Specific Read-only Data Management for Memory System Optimization **\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *The 24th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP'16)*
 
-2016
+2015
 :   **Co-simulating complex energy harvesting WSN applications: an in-tunnel wind powered monitoring example **\
     Le Quang V., Didioui A., Vaumourin G., Bernier C., Broekaert F., Fritsch A. \
     *International Journal of Sensor Networks (IJSNet)*
@@ -50,11 +61,19 @@ Scientific Publication
 :   **Specific read only data management for memory hierarchy optimization **\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *EWiLi'14, The 4th Embedded Operating Systems Workshop* [[pdf][2]]
+    
 
+Teaching and organization activities
+------------
+
+* **2018**: Co-Supervision with David Black-Schaffer of a PhD Student. Project on analyzing SPEC2017 benchmarks memory behavior
+* **2018**: Sub-Reviewer of the International European Conference on Parallel and Distributed Computing Conference ([EuroPar'18][19])
+* **2017**: Co-Organizer of the 10th edition of the **Scandinavian Multi-Core Workshop**: [MCC workshop][8] 
+* **2017**: Member of the ACM's Women in Computing [Uppsala Chapter][14]. Organization of the [Ada Lovelace Celebration][18]
+* **2016**: Teacher Assistant for Embbeded system and Hardware Programmation at IUT de Cachan (France) for 1 year
 
 > <gregory.vaumourin@gmail.com> • 
 > [GitHub][1] • [Linkedin][3]\
-> +33 (0)7 50 20 32 74
 
 
 [1]: https://github.com/gvaumour/
@@ -62,4 +81,20 @@ Scientific Publication
 [3]: https://fr.linkedin.com/in/grégory-vaumourin-597a7397
 [4]: http://greco.irisa.fr/
 [5]: http://wsnet.gforge.inria.fr/
-
+[6]: https://github.com/gvaumour/gvaumour.github.io/blob/master/report.pdf
+[7]: https://www.theses.fr/2016BORD0173
+[8]: http://www.it.uu.se/research/upmarc/events/MCC2017
+[9]: http://www.labri.fr/perso/barthou/
+[10]:https://www.inria.fr/equipes/storm
+[11]:http://www.it.uu.se/katalog/davbl791
+[12]:http://katalog.uu.se/profile/?id=N12-1860
+[13]: http://www-list.cea.fr/en/
+[14]: https://uu.acm.org/
+[15]: http://www.gem5.org/Main_Page
+[16]: http://www.hpl.hp.com/research/mcpat/
+[17]: https://gcc.gnu.org/
+[18]: http://adalovelace-celebration.acm.org/
+[19]: https://europar2018.org/
+[20]: https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool
+[21]: https://github.com/gvaumour/gvaumour.github.io/blob/master/tc.pdf
+[22]: https://www.it.uu.se/research/group/uart

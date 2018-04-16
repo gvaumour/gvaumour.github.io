@@ -26,10 +26,7 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 4, 0 },
- },
- ["itemgroup:itemize:2"]={
-  { 5, 0 },
+  { 3, 0 },
  },
 }
 
@@ -95,7 +92,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 4, 5 },
+  { 0, 3 },
  },
  ["linenote"]={
   { 0 },
@@ -302,6 +299,66 @@ utilitydata.structures.lists.collected={
   ["titledata"]={
    ["label"]="subsection",
    ["title"]="Teaching and organization activities",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["references"]={
+   ["internal"]=15,
+   ["order"]=10,
+   ["realpage"]=2,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2018",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["references"]={
+   ["internal"]=16,
+   ["order"]=11,
+   ["realpage"]=2,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2018",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["references"]={
+   ["internal"]=17,
+   ["order"]=12,
+   ["realpage"]=2,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2017",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["references"]={
+   ["internal"]=18,
+   ["order"]=13,
+   ["realpage"]=2,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2017",
+  },
+ },
+ {
+  ["metadata"]=9,
+  ["references"]={
+   ["internal"]=19,
+   ["order"]=14,
+   ["realpage"]=2,
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="2016",
   },
  },
 }

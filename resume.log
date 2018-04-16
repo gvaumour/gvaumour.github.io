@@ -17,7 +17,7 @@ structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Topic of Resear
 structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Education
 structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Scientific Publications
 
-Overfull \hbox (0.19405pt too wide) in paragraph at lines 159--164
+Overfull \hbox (0.19405pt too wide) in paragraph at lines 156--161
  \3>helvetica-11pt-ss-sl-0--0 The 24th Eu-romi-cro In-ter-na-tional Con-fer-ence on Par-al-lel, Dis-trib-uted and Network-Based
 
 \hbox(8.217+1.628)x512.14963, glue set - 1.0, direction TLT
@@ -32,41 +32,22 @@ backend         > xmp > using file '/usr/share/texmf/tex/context/base/lpdf-pdx.x
 pages           > flushing realpage 1, userpage 1
 structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Teaching and organization activities
 
-Overfull \hbox (0.79271pt too wide) in paragraph at lines 199--205
- [][][][] \3>helvetica-11pt-ss-bf-0--0 2017\3>helvetica-11pt-ss-tf-0--0 : Mem-ber of the ACM’s Women in Com-put-ing \3>helvetica-11pt-ss-bf-0--0 Up-p-sala Chap-ter\3>helvetica-11pt-ss-tf-0--0 . Or-ga-ni-za-tion of the \3>helvetica-11pt-ss-bf-0--0 Ada Lovelace
+Overfull \hbox (3.48343pt too wide) in paragraph at lines 209--211
+ [][]\3>helvetica-11pt-ss-tf-0--0 Teacher As-sis-tant for Em-bbe-ded sys-tem and Hard-ware Pro-gram-ma-tion at IUT de Cachan
 
 \hbox(11.62027+4.51897)x512.14963, glue set - 1.0, direction TLT
-.\glue(\leftskip) 16.5
+.\glue(\leftskip) 91.0488
 .\whatsit
 ..\localinterlinepenalty=0
 ..\localbrokenpenalty=0
 ..\localleftbox=null
 ..\localrightbox=null
-.\hbox(0.0+0.0)x0.0, direction TLT
-.\hbox(11.62027+4.51897)x0.0, glue set - 16.5fil, direction TLT
+.\hbox(11.62027+4.51897)x0.0, glue set - 91.0488fil, direction TLT
 ..\glue 0.0 plus 1.0fil minus 1.0fil
-..\hbox(11.62027+4.51897)x16.5, direction TLT
-...\hbox(11.62027+4.51897)x16.5, glue set 10.17503fil, direction TLT []
-.\hbox(11.62027+4.51897)x0.0, direction TLT
-.etc.
-
-
-Overfull \hbox (3.18115pt too wide) in paragraph at lines 205--207
- [][][][] \3>helvetica-11pt-ss-bf-0--0 2016\3>helvetica-11pt-ss-tf-0--0 : Teacher As-sis-tant for Em-bbe-ded sys-tem and Hard-ware Pro-gram-ma-tion at IUT de Cachan (France)
-
-\hbox(11.62027+4.51897)x512.14963, glue set - 1.0, direction TLT
-.\glue(\leftskip) 16.5
-.\whatsit
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x0.0, direction TLT
-.\hbox(11.62027+4.51897)x0.0, glue set - 16.5fil, direction TLT
-..\glue 0.0 plus 1.0fil minus 1.0fil
-..\hbox(11.62027+4.51897)x16.5, direction TLT
-...\hbox(11.62027+4.51897)x16.5, glue set 10.17503fil, direction TLT []
-.\hbox(11.62027+4.51897)x0.0, direction TLT
+..\hbox(11.62027+4.51897)x91.0488, direction TLT
+...\hbox(11.62027+4.51897)x91.0488, glue set 39.83385fil, direction TLT []
+.\penalty 10000
+.\3>helvetica-11pt-ss-tf-0--0 T
 .etc.
 
 pages           > flushing realpage 2, userpage 2
@@ -83,9 +64,9 @@ system          > structure > stop used structure
 system          > files > start used files
 
 used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/cont-yes.mkiv usedmethod=database
-used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf/tex/context/base/publ-imp-default.lua usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf/tex/context/base/publ-imp-default.lua usedmethod=database
 used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/cont-new.mkiv usedmethod=database
-used file       >    4: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf/tex/context/patterns/lang-us.lua usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf/tex/context/patterns/lang-us.lua usedmethod=database
 used file       >    5: filename=/home/gvaumour/Draft/gvaumour.github.io/resume.tex foundname=/home/gvaumour/Draft/gvaumour.github.io/resume.tex usedmethod=direct
 used file       >    6: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/share/texmf/tex/context/base/type-imp-texgyre.mkiv usedmethod=database
 used file       >    7: filename=lm.lfg filetype=tex foundname=/usr/share/texmf/tex/context/fonts/lm.lfg usedmethod=database
@@ -119,27 +100,27 @@ system          > options > stop commandline files
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/gvaumour/.texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.065 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 13 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 371 modules (0.249 sec), 78 tables (0.006 sec), 449 chunks (0.255 sec)
+mkiv lua stats  > resource resolver: loadtime 0.073 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 13 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 371 modules (0.225 sec), 78 tables (0.006 sec), 449 chunks (0.232 sec)
 mkiv lua stats  > traced context: maxstack: 1150, freed: 18, unreachable: 1132
 mkiv lua stats  > running in nuts mode: yes
 mkiv lua stats  > cleaned up reserved nodes: 53 nodes, 439 lists of 438
 mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 12 attribute, 44 glue_spec, 3 attribute_list, 2 temp
-mkiv lua stats  > node list callback tasks: 6 unique task lists, 7 instances (re)created, 386 calls
-mkiv lua stats  > h-node processing time: 0.015 seconds including kernel
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 7 instances (re)created, 414 calls
+mkiv lua stats  > h-node processing time: 0.014 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > loaded patterns: en::2, load time: 0.000
-mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: 797 direct, 743 indirect, 1540 total
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 843 direct, 747 indirect, 1590 total
 mkiv lua stats  > randomizer: resumed with value 0.6453805824953
-mkiv lua stats  > interactive elements: 23 references, 14 destinations
+mkiv lua stats  > interactive elements: 23 references, 19 destinations
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 5 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-bolditalic.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > fonts load time: 0.153 seconds for 11 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
+mkiv lua stats  > fonts load time: 0.190 seconds for 11 fonts, 4 shared in backend, 0 common vectors, 4 common hashes
 mkiv lua stats  > pdf annotations: 23 links (23 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > luatex banner: this is luatex, version beta-0.80.0 (tex live 2015/debian) (rev 5238)
 mkiv lua stats  > control sequences: 43430 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 83 MB (ctx: 82 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.594 seconds, 2 processed pages, 2 shipped pages, 3.367 pages/second
+mkiv lua stats  > lua properties: engine: lua, used memory: 77 MB (ctx: 76 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.610 seconds, 2 processed pages, 2 shipped pages, 3.279 pages/second
 

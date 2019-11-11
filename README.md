@@ -1,17 +1,24 @@
 Grégory Vaumourin
 =================
 
->  Associated Researcher in Computer Architecture at Uppsala University (Sweden)
+>  HPC Engineer at ATOS Bull (France)
+
 
 Topic of Research 
 -----------------
 
-* Memory systems optimization
-* Hybrid system with volatile memory technologies
+* Persistent Memory Technology for HPC
+* I/O profiling, analysis and acceleration 
+* Cache Memory Based Optimizations (Data locality, Coherency protocol)
 * Compilation analysis and data locality optimization 
 
 Education
 ---------
+
+2019-
+:   **HPC Engineer**  in the Data Management Team, at ATOS Bull Company (France)\
+    __*Description:*__ Contribute as a member of the Data Management team to develop a framework for I/O profiling, analysis and acceleration. This includes the C/Python based SW implementation of an ephemeral Flash-Based Burst Buffer within the [SLURM][24] Workload Manager
+
 
 2017-2019
 :   **Associated Researcher**  in the Uppsala Architecture Research Team ([UART][22]), Uppsala University (Sweden)\
@@ -37,40 +44,47 @@ Education
 Scientific Publications
 ------------
 
+2019
+:   **Which Memory Abstraction for NVDIMM on Object Storage** \
+    Vaumourin G., Laferriere C. Couvee P. and Valat
+    Presentation at ECMWF for the NEXTGenIO Workshop on applications of NVRAM storage to exascale I/O 
+    Slides and Presentation available [here][25]
+
 2018
 :   **DB-AMB: Dataset-Based Allocation, Migration, and Bypassing in hybrid** \
     **non-volatile/SRAM caches** \
     Vaumourin G., Jimborean A. and Black-Schaffer D.\
     *Under Review at IEEE Transaction on Computers* [pre-print][21] 
 
-
 2017
 :   **Dedicated read-only/read-write cache design for data locality and coherence optimization**\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *Technical Report* [print][6] 
 
-
 2016
-:   **Specific Read-only Data Management for Memory System Optimization **\
+:   **Specific Read-only Data Management for Memory System Optimization**\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *The 24th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP'16)*
 
 
 2015
-:   **Co-simulating complex energy harvesting WSN applications: an in-tunnel wind powered monitoring example **\
+:   **Co-simulating complex energy harvesting WSN applications: an in-tunnel wind powered monitoring example**\
     Le Quang V., Didioui A., Vaumourin G., Bernier C., Broekaert F., Fritsch A. \
     *International Journal of Sensor Networks (IJSNet)*
 
 
 2014
-:   **Specific read only data management for memory hierarchy optimization **\
+:   **Specific read only data management for memory hierarchy optimization**\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *EWiLi'14, The 4th Embedded Operating Systems Workshop* [[pdf][2]]
 
     
 
-Teaching and organization activities
+Research & Teaching Activities
 ------------
+
+2019
+:   Contribution to the Sage European Project ([SAGE2][23]): studying the usage of persistent memory (DCPMM) within a multi-tiers object storage system (MERO) for Exescale
 
 2018
 :   Co-Supervision of a PhD Student: Analyzing SPEC2017 benchmarks memory behavior
@@ -114,3 +128,6 @@ Teaching and organization activities
 [20]: https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool
 [21]: https://github.com/gvaumour/gvaumour.github.io/blob/master/tc.pdf
 [22]: https://www.it.uu.se/research/group/uart
+[23]: https://cordis.europa.eu/project/rcn/216312/factsheet/fr
+[24]: https://slurm.schedmd.com/
+[25]: https://www.ecmwf.int/en/learning/workshops/nextgenio-workshop-applications-nvram-storage-exascale-i-o

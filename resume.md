@@ -1,7 +1,7 @@
 Grégory Vaumourin
 =================
 
->  HPC Engineer at ATOS Bull (France)
+>  Computer Architect at ATOS Bull (France)
 
 
 Topic of Research 
@@ -12,15 +12,19 @@ Topic of Research
 * Cache Memory Based Optimizations (Data locality, Coherency protocol)
 * Compilation analysis and data locality optimization 
 
-Education
+Experiences
 ---------
 
-2019-
+2020-
+:   **Computer Architect Researcher**  in the Hardware R&D division at ATOS Bull Company (France)\
+    __*Description:*__ Participation to the [European Processor Initiative project][28]. My contribution is the development of a virtual platform of the Rhea Chip that includes: lastest ARM cores (Neoverse V1) as main compute cores, RISCV controllers for security and power management of the chip, DDR54 controllers and HBM2E memory controllers. Main methodologies used are ARM Fast Models and Synopsys'Virtualizer
+
+2018-2020
 :   **HPC Engineer**  in the Data Management Team, at ATOS Bull Company (France)\
     __*Description:*__ Contribute as a member of the Data Management team to develop a framework for I/O profiling, analysis and acceleration. This includes the C/Python based SW implementation of an ephemeral Flash-Based Burst Buffer within the [SLURM][24] Workload Manager
 
 
-2017-2019
+2017-2018
 :   **Associated Researcher**  in the Uppsala Architecture Research Team ([UART][22]), Uppsala University (Sweden)\
     __*Description:*__ Analyzing the opportunity of the new non-volatile memories technologies (NVM) for cache-based memory systems both in hardware and software point of views with Pr. Black-Schaffer and Pr. Jimborean.
 
@@ -44,6 +48,23 @@ Education
 Scientific Publications
 ------------
 
+2021
+:   **A comparative study of black‑box optimization heuristics for online tuning of** \
+    **High Performance Computing I/O accelerators**  \
+    Robert S., Zertal S., Vaumourin G., Couvée P. \
+    *Published in Concurrency and Computation: Practice and Experience, 2021*
+
+2020
+:   **Using genetic algorithms for noisy systems’auto‑tuning:**
+    **an application to the case of burst buffers**
+    Robert S., Zertal S., Vaumourin G.\
+    *Presented at the 2020 International Conference on High PerformanceComputing & Simulation(HPCS’20)*
+
+2020
+:   **An adaptive resampling strategy for auto‑tuning of noisy HPC systems**
+    Robert S., Zertal S., Vaumourin G.\
+    *Patent EP20306185.8, 2020*
+
 2019
 :   **Which Memory Abstraction for NVDIMM on Object Storage** \
     Vaumourin G., Laferriere C. Couvee P. and Valat
@@ -56,38 +77,45 @@ Scientific Publications
     Vaumourin G., Jimborean A. and Black-Schaffer D.\
     *Under Review at IEEE Transaction on Computers* [pre-print][21] 
 
-2017
-:   **Dedicated read-only/read-write cache design for data locality and coherence optimization**\
-    Vaumourin G., Dombek T., Guerre A., Barthou D.\
-    *Technical Report* [print][6] 
-
 2016
 :   **Specific Read-only Data Management for Memory System Optimization**\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *The 24th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP'16)*
-
 
 2015
 :   **Co-simulating complex energy harvesting WSN applications: an in-tunnel wind powered monitoring example**\
     Le Quang V., Didioui A., Vaumourin G., Bernier C., Broekaert F., Fritsch A. \
     *International Journal of Sensor Networks (IJSNet)*
 
-
 2014
 :   **Specific read only data management for memory hierarchy optimization**\
     Vaumourin G., Dombek T., Guerre A., Barthou D.\
     *EWiLi'14, The 4th Embedded Operating Systems Workshop* [[pdf][2]]
 
-    
+Students & Teaching Activities
+------------
+
+2021
+:  Pedro Martins Basso, Master Internship. Project: "Modelling of inter-chip interconnect". Main Supervisor
+
+2020-2021
+:  Sophie Robert, PhD Student. Project: "Auto-tuning of computer systems using black-box optimization: an application to the case of I/O accelerators". Co-supervisor
+
+2018
+:   Muhammad Hassan, PhD Student. Project: "Analyzing SPEC2017 benchmarks memory behavior". Co-supervisor
+
+2016
+:   Teacher Assistant for Embbeded system and Hardware Programmation at IUT de Cachan (France)
+
 
 Research & Teaching Activities
 ------------
 
-2019
-:   Contribution to the Sage European Project ([SAGE2][23]): studying the usage of persistent memory (DCPMM) within a multi-tiers object storage system (MERO) for Exescale
+2021
+:    Organization of the 2021 HiPEAC [MB2020 Tutorial][26]: The Mont-Blanc 2020 approach for SoC codesign
 
-2018
-:   Co-Supervision of a PhD Student: Analyzing SPEC2017 benchmarks memory behavior
+2019
+:   Contribution to the Sage European Project ([SAGE2][23]): studying the usage of persistent memory (DCPMM) within a multi-tiers object storage system (MERO) for Exascale
 
 2018
 :   Sub-Reviewer of the International European Conference on Parallel and Distributed Computing Conference ([EuroPar'18][19])
@@ -98,8 +126,6 @@ Research & Teaching Activities
 2017
 :   Member of the ACM's Women in Computing [Uppsala Chapter][14] and organization of the [Ada Lovelace Celebration][18]
 
-2016
-:   Teacher Assistant for Embbeded system and Hardware Programmation at IUT de Cachan (France)
 
 
 > <gregory.vaumourin@gmail.com> • 
@@ -131,3 +157,6 @@ Research & Teaching Activities
 [23]: https://cordis.europa.eu/project/rcn/216312/factsheet/fr
 [24]: https://slurm.schedmd.com/
 [25]: https://www.ecmwf.int/en/learning/workshops/nextgenio-workshop-applications-nvram-storage-exascale-i-o
+[26]: https://www.montblanc-project.eu/press-corner/events/hipeac-conference-2021
+[27]: https://www.youtube.com/watch?v=jv_n8VVMSkQ&list=PLUU79oBORyMgdArHFU0gSxaUrZDzOPfb3&index=11
+[28]: https://www.european-processor-initiative.eu/
